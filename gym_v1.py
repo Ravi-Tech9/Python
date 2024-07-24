@@ -46,6 +46,8 @@ shoulder_7 = "dumbell_shrugs"
 shoulder_8 = "farmers_drag"
 shoulder_9 = "seated_shoulder_press_machine"
 
+shoulder = [shoulder_1,shoulder_2,shoulder_3,shoulder_4,shoulder_5,shoulder_6,shoulder_7,shoulder_8,shoulder_9]
+
 
 # Biceps & tricep variables 
 
@@ -89,6 +91,8 @@ Legs_5 = "Calf_raise_machine"
 Legs_6 = "Free_standing_calf_raise"
 Legs_7 = "Leg_curls"
 
+legs = [Legs_1,Legs_2,Legs_3,Legs_4,Legs_5,Legs_6,Legs_7]
+
 # now user queried his workout 
 
 workout = input("please enter your workout? ")
@@ -99,7 +103,23 @@ if workout == 'chest':           #if you are using same keyword to define a list
     print(f"your todays workout is {todays_workout}")
 elif workout == "back":
     todays_workout = back 
-    print(f"your todays workout is {todays_workout}")    
+    print(f"your todays workout is {todays_workout}")
+elif workout == "shoulder":
+    todays_workout = shoulder 
+    print(f"your todays workout is {todays_workout}")
+elif workout == "bicep":
+    todays_workout = Bicep_Tricep 
+    print(f"your todays workout is {todays_workout}")
+elif workout == "tricep":
+    todays_workout = Bicep_Tricep 
+    print(f"your todays workout is {todays_workout}")           
+elif workout == "abs":
+    todays_workout = Abs 
+    print(f"your todays workout is {todays_workout}")
+elif workout == "legs":
+    todays_workout = legs 
+    print(f"your todays workout is {todays_workout}")
+
 else:
     print("please plan for your workout")
 
