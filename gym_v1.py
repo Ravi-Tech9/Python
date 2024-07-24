@@ -33,6 +33,62 @@ back_7 = "barbell_pull_over"
 back = [back_1,back_2,back_3,back_4,back_5,back_6,back_7]
 
 
+
+# shoulder variables 
+
+shoulder_1 = "seated_dumbell_shoulder_press"
+shoulder_2 = "Standing_Barbell_shoulder_press"
+shoulder_3 = "weight_plate_raise"
+shoulder_4 = "dumbell_lateral_raise"
+shoulder_5 = "Cable_rope_pull-to-face"
+shoulder_6 = "Barbell_pull_over-to-neck"
+shoulder_7 = "dumbell_shrugs"
+shoulder_8 = "farmers_drag"
+shoulder_9 = "seated_shoulder_press_machine"
+
+
+# Biceps & tricep variables 
+
+Bicep_1 = "Trap_bar_concentrated_curl"
+Bicep_2 = "standing_dumbell_curl"
+Bicep_3 = "seated_dubmell_curl"
+Bicep_4 = "dumbell_concentrated_peach_row"
+Bicep_5 = "dumbell_concetrated_curl"
+Bicep_6 = "barbell_curl"
+
+Tricep_1 = "stand_Bar_cable_pull"
+Tricep_2 = "Dumbell_tricep_curl_behind"
+Tricep_3 = "standing_rope_cable_pull"
+Tricep_4 = "Standing_Bar_cable_pull_over_head"
+Tricep_5 = "Tricep_bench_press_with_plates"
+Tricep_6 = "Tricep_skull_crusher"
+
+Bicep_Tricep = [Bicep_1,Tricep_1,Bicep_2,Tricep_2,Bicep_3,Tricep_3,Bicep_4,Tricep_3,Bicep_4,Tricep_4,Bicep_5,Tricep_5,Bicep_6,Tricep_6]
+
+
+
+# Abs variables 
+
+Abs_1 = "iron_bar_shoulder_twist"
+Abs_2 = "upper_abs_crunch"
+Abs_3 = "lower_abs_leg_raise"
+Abs_4 = "side_abs_obliques"
+Abs_5 = "Hanging_leg_raise"
+Abs_6 = "Hanging_obliques"
+Abs_7 = "side_ab_crunches"
+
+Abs = [Abs_1,Abs_2,Abs_3,Abs_4,Abs_5,Abs_6,Abs_7]
+
+# Legs variables 
+
+Legs_1 = "Free_squats"
+Legs_2 = "Barbell_squats"
+Legs_3 = "Leg_extensions"
+Legs_4 = "Leg_press_machine"
+Legs_5 = "Calf_raise_machine"
+Legs_6 = "Free_standing_calf_raise"
+Legs_7 = "Leg_curls"
+
 # now user queried his workout 
 
 workout = input("please enter your workout? ")
